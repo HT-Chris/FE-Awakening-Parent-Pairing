@@ -1,0 +1,65 @@
+
+CRUD app
+
+
+resources
+
+ui
+    have a table for fathers, mothers, and couples in their sprites
+        once character is selected, the main portrait will pull up on the main display; mothers will have child portrait as well
+        under the portrait will have the classes and the skills for each under the classes, child will have their default classes til a father is selected
+        have overlapping skills hi-lighted, or have fathers skills hi-lighted and the mothers skills have a different color
+            or have gender locked skills from parent hi-lighted
+    can save a couple to the table greying out the sprite and portrait
+        still able to select the sprite but will give warning if the unit has already been selected if trying to save
+    can delete pairs, save to local storage    
+
+    111111111111 222     1=main display with portrait
+    111111111111 222     2=pairing table
+    111111111111 222     3=fathers
+    111111111111 222     3=fathers
+                 222
+    333333333333 222     4=mothers
+    444444444444 222     5=children
+    555555555555 222
+
+assets
+
+    sprites, portraits, class sprites, skills sprite
+
+functions
+
+    library of fathers, mothers, and child classes
+    library of classes with skills and there promotion
+
+    function to calc classes and skills
+
+json demo
+
+    const classes ={
+        cavalier ={
+            base:{
+                skill1: skill,
+                skill2: skill2
+            },
+            paladin:{
+                skill1: skill,
+                skill2: skill2
+                },
+            great knight:{
+                skill1: skill,
+                skill2: skill2
+                }
+        }
+    }
+
+
+   const character ={ 
+        parent: 'father',
+        child: 'none',
+        classes: [cavalier, archer, mage]
+}
+
+    const genderClassesSwap = [
+        [warHealer, healer]
+    ]
