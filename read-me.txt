@@ -1,0 +1,11 @@
+This is an app that will help you plan out which pairings of parents you want for the game Fire Emblem Awakening.
+
+In this app you'll pair up parent units that will show  both unit's classes and skills, along with their child if available.If the parent units have a child then the app will display skills that the child can not learn but can be passed down by one of their parents.
+
+You can save pairings to a list and the app will automatically grey out paired units.
+
+You can remove a pairing from the list to have the units available to be paired with another unit.
+
+A pairing can be redisplay.
+
+Hope you have fun with this app!
