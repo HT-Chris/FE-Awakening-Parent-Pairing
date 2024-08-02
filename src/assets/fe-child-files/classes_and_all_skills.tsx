@@ -363,6 +363,13 @@ export const baby = function(parentOne:_CHAR_CLASSES| avatar| _CHILD_CLASSES, pa
     if(jobs){
         child3.set('classes', jobs)}
     }
+    if(mommy.getName() === 'Tiki'){
+        const jobs = child3.get('classes')
+        if(  Array.isArray(jobs))
+        jobs.push("Manakete")
+    if(jobs){
+        child3.set('classes', jobs)}
+    }
 
     if(mommy.getSex() == 'zf' && daddy.getSex()==='am'){
         return [child3]
@@ -449,6 +456,14 @@ export const baby = function(parentOne:_CHAR_CLASSES| avatar| _CHILD_CLASSES, pa
                 jobs.push("Taguel")
             if(jobs){
                 child1.set('classes', jobs)}
+            }
+            
+            if(mommy.getName() === 'Tiki'){
+                const jobs = child3.get('classes')
+                if(  Array.isArray(jobs))
+                jobs.push("Manakete")
+            if(jobs){
+                child3.set('classes', jobs)}
             }
         
 
